@@ -1,0 +1,173 @@
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+body {
+	width: 960px;
+}
+
+a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: none;
+	color:#808080;
+}
+
+p {color:#808080;}
+
+h2 {color:#4aaaa5;}
+
+h3 {color:#4aaaa5;}
+
+hr {color:#808080;}
+
+#header {
+	width: 100%;
+	background: #ffffff;
+}
+
+#content {
+	width: 100%;
+	overflow:auto;
+	border: 3px solid #dddddd;
+	background: #ffffff;
+	background-image: url("../images/ep_naturalwhite.png");
+	border-right-style: none;
+}
+
+#footer {
+	width: 100%;
+  height: 80px;
+  border: 7px solid #4aaaa5;
+  border-bottom-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  background: #666666;
+  text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+}
+
+#nameHeader {
+	background: #4aaaa5;
+	color: #ffffff;
+	width: 200px;
+	height: 80px;
+	float:left;
+	margin: 0 0 0 55px ;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#topNavigation {
+	float: right;
+	margin: 30px 80px 0 0;
+	list-style-type: none;
+	overflow: hidden;
+	width:300px;
+}
+
+/* Float the list items side by side */
+#topNavigation li {
+	float: left;
+	width:20%;
+	text-align: center;
+}
+
+
+#aboutMe {
+	background: #ffffff;
+	float: left;
+	width: 600px;
+	margin: 20px 0 20px 10px;
+	padding: 0 10px 0 10px;
+}
+
+#connectWithMe {
+	background: #ffffff;
+	float: left;
+	width: 270px;
+	margin: 20px 0 0 20px;
+}
+
+#profilePic {
+	float: left;
+	margin: 0 0 10px 10px;
+	padding: 10px 10px 0 0;
+	width:150px;
+	height:150px;
+}
+
+@media screen and (max-width: 980px)
+{
+	body {
+		width: 100%;
+	}
+
+	#profilePic {
+		width:100%;
+	}
+
+	#aboutMe {
+		width: 60%;
+	}
+
+	#connectWithMe {
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 768px)
+ {
+	 body {
+ 		width:100%
+ 	}
+
+	#content {
+		width: 100%;
+	}
+
+	#profilePic {
+		float: left;
+		width: 30%;
+	}
+
+	#aboutMe {
+		width: 90%;
+	}
+
+	#connectWithMe {
+		width: 90%
+	}
+}
+
+@media screen and (max-width: 640px)
+{
+	body {
+		width:100%;
+	}
+	#nameHeader {
+		width:100%;
+
+	}
+	#topNavigation {
+		width: 100%;
+		margin:0;
+	}
+
+	#aboutMe {
+		width: 90%;
+
+	}
+	#profilePic{
+		width: 100%;
+
+	}
+	#connectWithMe {
+		width: 90%;
+		}
+}
